@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'PT Serif', serif;
+    
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+header{
+    background-color: lightblue;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    width:30%;
+    float:left;
+    
+}
+
+.redes{
+    margin-top:2px;
+    display:flex;
+    flex-direction:column;
+}
+.redes li {
+    list-style: none;
+    
+}
+.redes li a{
+    text-decoration:none;
+    color:white;
+    
+}
+.info{
+    display: flex;
+    float:right;
+    flex-direction: column;
+    margin-right:10px;
+}
+.info li{
+    list-style: none;
+    
+
+}
+.trabajos{
+    margin-top:50px;
+
+}
+main{
+    background-color: antiquewhite;
+}
+.location , .phone , .email{
+    margin-left:10px;
+}
